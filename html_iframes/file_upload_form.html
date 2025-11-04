@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Krish Pathak">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>File Upload Form</title>
+</head>
+<body>
+    <h2>Upload Your Image</h2>
+    <p>Please upload only image files in <strong>.jpg</strong> or <strong>.png</strong> format.</p>
+
+    <form method="post" action="#" enctype="multipart/form-data">
+        <label for="fileUpload">Choose file:</label><br>
+        <input type="file" id="fileUpload" name="fileUpload" accept=".jpg, .png" required><br><br>
+        <input type="submit" value="Upload">
+    </form>
+</body>
+</html>
